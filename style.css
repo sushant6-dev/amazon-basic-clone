@@ -22,6 +22,15 @@
     justify-content: space-evenly;
 }
 
+.nav-border-spacing{
+    font-size: 0.85rem;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Logo Element */
 
 .nav-logo{
@@ -37,7 +46,6 @@
 }
 
 /* Address Element */
-
 .add-icon{
     display: flex;
     align-items: center;
@@ -105,3 +113,18 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
 }
+
+
+/* Cart Element */
+
+.nav-cart{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+.nav-cart i{
+    font-size: 1.5rem;
+}
+
