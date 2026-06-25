@@ -5,6 +5,8 @@
     border: border-box;
 }
 
+/* Navigation Bar */
+
 .border{
     border: 1.5px solid transparent;
 }
@@ -46,6 +48,9 @@
 }
 
 /* Address Element */
+.nav-add{
+    padding-right: 8px ;
+}
 .add-icon{
     display: flex;
     align-items: center;
@@ -55,6 +60,7 @@
     font-size: 0.75rem;
     color: #cccccc;
     margin-left: 15px;
+    margin-bottom: 2px;
 }
 
 .add-second{
@@ -105,6 +111,14 @@
 
 /* Sign in and Orders elements */
 
+.nav-signin{
+    padding: 0px 5px 0px 5px;
+}
+
+.nav-orders{
+    padding: 0px 5px 0px 5px;
+}
+
 span{
     font-size: 0.6rem;
 }
@@ -123,8 +137,35 @@ span{
     justify-content: center;
     align-items: center;
     font-size: 0.7rem;
+    padding: 0px 5px 0px 5px;
 }
 .nav-cart i{
     font-size: 1.5rem;
 }
 
+/* Panel Bar*/
+
+.panel{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #232F3E;
+    align-items: center;
+    color: white;
+}
+
+.panel-all{
+    font-size: 1rem;
+    padding: 8px;
+    border: 1.5px solid white;
+}
+
+.panel-ops{
+    display: flex;
+    font-size: 0.90rem;
+    margin-left: 10px;
+}
+
+.panel-ops p {
+    padding: 8px;
+}
